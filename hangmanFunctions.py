@@ -85,6 +85,7 @@ def guessingGame(guessWord,attempts) -> None:
                 print("\nYou guessed the word '" + guessWord + "' with " + str(attempts) + " out of " + str(startAttempts) + " attempts left!\n")
                 print("Congratulations!\n")
             print("-"*80)
+            os.system("pause")
             break
 
                   
